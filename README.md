@@ -38,3 +38,15 @@ sudo nmao -sS 10.13.13.101 -sV -O
 sudo nmao -sS 10.13.13.104 -sV -O
 sudo nmao -sS 10.13.13.105 -sV -O
 ```
+
+### Resultados 10.13.13.101
+
+<image src="https://github.com/jgrisalescode/nmap/blob/main/10.13.13.101%20info.png" alt="10.13.13.101">
+
+### Resultados 10.13.13.104
+
+<image src="" alt="10.13.13.104">
+
+### Resultados 10.13.13.105
+
+<image src="" alt="10.13.13.105">
