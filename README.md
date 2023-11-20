@@ -18,10 +18,10 @@ Escaneo de máquinas virtuales instaladas en un laboratio de Virtualbox configur
 nmap -sn 10.13.13.0/24
 
 # Resultaddo
-- 10.13.13.101
+- 10.13.13.101 (Matrix Machine)
 - 10.13.13.102 (My virtual machine)
-- 10.13.13.104
-- 10.13.13.105
+- 10.13.13.104 (Ubunttu Desktop 22.04)
+- 10.13.13.105 (Metasplotable 2.0.0)
 
 # Escaneo basico de puertos
 sudo nmap -sS 10.13.13.101
@@ -45,8 +45,10 @@ sudo nmao -sS 10.13.13.105 -sV -O
 
 ### Resultados 10.13.13.104
 
-<image src="" alt="10.13.13.104">
+<image src="https://github.com/jgrisalescode/nmap/blob/main/10.13.13.104%20info.png" alt="10.13.13.104">
 
 ### Resultados 10.13.13.105
 
-<image src="" alt="10.13.13.105">
+<image src="https://github.com/jgrisalescode/nmap/blob/main/10.13.13.105%20info.png" alt="10.13.13.105">
+
+Como podemos ver la maquina con direccion ip ```10.13.13.105``` es la que más vectores de ataque posible tiene.
